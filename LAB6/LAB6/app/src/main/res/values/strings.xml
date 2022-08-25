@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">LAB6</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="text_fragment_home_good_morning">Good Morning,</string>
+    <string name="menu_option_home">Home</string>
+    <string name="menu_option_search">Search</string>
+    <string name="menu_option_library">Library</string>
+    <string name="option_search">Search</string>
+    <string name="your_top_genres">Your top genres</string>
+    <string name="electronica">Electronica</string>
+    <string name="bachata">Bachata</string>
+    <string name="rock">Rock</string>
+    <string name="salsa">Salsa</string>
+    <string name="liked_song">Liked Song</string>
+    <string name="most_recent">Most recent</string>
+
+</resources>

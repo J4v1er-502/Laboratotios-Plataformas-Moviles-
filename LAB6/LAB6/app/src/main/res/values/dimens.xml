@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="Big_Font">25sp</dimen>
+    <dimen name="Medium_Font">15sp</dimen>
+    <dimen name="margin_small">10dp</dimen>
+    <dimen name="genre_card_height">100dp</dimen>
+    <dimen name="genre_card_radius">8dp</dimen>
+    <dimen name="margin_xs">5dp</dimen>
+    <dimen name="margin_medium">15dp</dimen>
+    <dimen name="margin_xl">50dp</dimen>
+    <dimen name="font_size_small">10dp</dimen>
+</resources>

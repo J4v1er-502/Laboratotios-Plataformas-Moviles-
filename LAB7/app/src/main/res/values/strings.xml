@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">LAB7</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textView_fragment_login_laboratorio7">Laboratorio 7</string>
+    <string name="textInputLayout_fragment_login_correo">Ingresa tu correo</string>
+    <string name="textView_fragment_login_nuevo_usuario">¿Nuevo Usuario? ¡Crea tu cuenta aquí!</string>
+    <string name="button_fragment_login_inisiar_sesion">Iniciar Sesión</string>
+    <string name="textView_fragment_new_acount_nueva_cuenta">Nueva Cuenta</string>
+    <string name="button_fragment_new_acount_crear_cuenta">Crear cuenta</string>
+    <string name="button_fragment_home_actualizar_perfil">Actualizar perfil</string>
+    <string name="textView_fragment_profile_mi_perfil">Mi perfil</string>
+    <string name="textView_fragment_profile_name">Mi Perfil</string>
+</resources>

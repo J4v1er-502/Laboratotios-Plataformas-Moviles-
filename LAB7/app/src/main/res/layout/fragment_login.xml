@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+
+        android:id="@+id/textView_fragment_login_laboratorio7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintVertical_chainStyle="packed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/textInputLayout_fragment_login_correo"
+        android:layout_marginBottom="25dp"
+        android:textSize="@dimen/Titulos"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:text="@string/textView_fragment_login_laboratorio7"
+
+        />
+    <com.google.android.material.textfield.TextInputLayout
+
+        android:id="@+id/textInputLayout_fragment_login_correo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_fragment_login_laboratorio7"
+        app:layout_constraintBottom_toTopOf="@+id/textView_fragment_login_nuevo_usuario"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginBottom="10dp"
+        android:hint="@string/textInputLayout_fragment_login_correo"
+        app:hintTextColor="@color/black"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+        android:id="@+id/textView_fragment_login_nuevo_usuario"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        app:layout_constraintStart_toStartOf="@+id/textInputLayout_fragment_login_correo"
+        app:layout_constraintTop_toBottomOf="@+id/textInputLayout_fragment_login_correo"
+        app:layout_constraintBottom_toTopOf="@id/button_fragment_login_inisiar_sesion"
+        android:text="@string/textView_fragment_login_nuevo_usuario"
+        android:textColor="@color/teal_200" />
+
+    <Button
+        android:id="@+id/button_fragment_login_inisiar_sesion"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_fragment_login_nuevo_usuario"
+        android:layout_marginHorizontal="@dimen/margin_horizontal"
+        android:layout_marginTop="25dp"
+        android:text="@string/button_fragment_login_inisiar_sesion"
+         />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

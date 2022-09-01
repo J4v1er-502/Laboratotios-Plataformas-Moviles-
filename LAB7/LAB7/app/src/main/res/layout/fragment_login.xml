@@ -33,7 +33,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView_fragment_login_laboratorio7"
-        app:layout_constraintBottom_toTopOf="@+id/textView_fragment_login_nuevo_usuario"
+        app:layout_constraintBottom_toTopOf="@+id/button_fragment_login_nuevo_usuario"
         android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:layout_marginBottom="10dp"
         android:hint="@string/textInputLayout_fragment_login_correo"
@@ -41,15 +41,17 @@
         style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInput_loginFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
-    <TextView
-        android:id="@+id/textView_fragment_login_nuevo_usuario"
+    <Button
+        android:id="@+id/button_fragment_login_nuevo_usuario"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-
+        style="@style/Widget.MaterialComponents.Button.TextButton"
+        android:textSize="12sp"
         app:layout_constraintStart_toStartOf="@+id/textInputLayout_fragment_login_correo"
         app:layout_constraintTop_toBottomOf="@+id/textInputLayout_fragment_login_correo"
         app:layout_constraintBottom_toTopOf="@id/button_fragment_login_inisiar_sesion"
@@ -63,7 +65,7 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView_fragment_login_nuevo_usuario"
+        app:layout_constraintTop_toBottomOf="@+id/button_fragment_login_nuevo_usuario"
         android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:layout_marginTop="25dp"
         android:text="@string/button_fragment_login_inisiar_sesion"

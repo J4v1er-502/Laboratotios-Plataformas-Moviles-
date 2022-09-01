@@ -43,6 +43,8 @@
         android:layout_height="wrap_content"
         android:layout_marginHorizontal="@dimen/margin_horizontal"
         android:hint="@string/textInputLayout_fragment_login_correo"
+        app:startIconTint="@color/black"
+        app:startIconDrawable="@drawable/ic_arroba_text_imput_layout"
         app:hintTextColor="@color/black"
         android:layout_marginTop="25dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -50,16 +52,17 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView">
 
         <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/textInput_actualizar_perfilFragment_editText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
     </com.google.android.material.textfield.TextInputLayout>
 
 
     <Button
-        android:id="@+id/button_fragment_new_acount_crear_cuenta"
+        android:id="@+id/button_fragment_porfile_actualizar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Actualizar"
+        android:text="@string/actualizar"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"

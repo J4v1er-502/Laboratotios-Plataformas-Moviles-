@@ -11,4 +11,10 @@
     <string name="button_fragment_home_actualizar_perfil">Actualizar perfil</string>
     <string name="textView_fragment_profile_mi_perfil">Mi perfil</string>
     <string name="textView_fragment_profile_name">Mi Perfil</string>
+    <string name="correoCorrecto">jcdurini@uvg.edu.gt</string>
+    <string name="correoNoExiste">el correo no existe</string>
+    <string name="mensage_central_homeFragment">Hola %s, necesitamos que actualices tu perfil!</string>
+    <string name="actualizar">Actualizar</string>
+    <string name="text_buenosDias_homeFragment">¡Buenos días!</string>
+
 </resources>
